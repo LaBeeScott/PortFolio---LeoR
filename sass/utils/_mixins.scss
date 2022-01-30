@@ -1,0 +1,7 @@
+@mixin btn {
+  background-color: $detail-color;
+  color: $font-color;
+  padding: 2rem;
+  border: none;
+  border-radius: 2rem;
+}

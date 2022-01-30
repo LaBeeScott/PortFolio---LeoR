@@ -1,0 +1,19 @@
+{
+  "name": "portfolio---leor",
+  "version": "1.0.0",
+  "description": "PortFolio - LeoR",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaBeeScott/PortFolio---LeoR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaBeeScott/PortFolio---LeoR/issues"
+  },
+  "homepage": "https://github.com/LaBeeScott/PortFolio---LeoR#readme"
+}
