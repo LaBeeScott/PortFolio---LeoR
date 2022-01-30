@@ -5,3 +5,10 @@
   border: none;
   border-radius: 2rem;
 }
+
+@mixin burger {
+  border: 2px solid $detail-color;
+  width: 2rem;
+  margin-bottom: 7px;
+  border-radius: 1rem;
+}

@@ -3,13 +3,33 @@
   justify-content: space-between;
   align-items: center;
   margin: 1rem;
-  & img {
-    width: 5rem;
+  & .logo {
+    padding: 0.5rem;
+    border: 1px solid $detail-color;
+    border-radius: 5rem;
+    font-size: 2.5rem;
     position: absolute;
-    top: 1rem;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+  & .menu-burger {
+    position: absolute;
+    top: 2.75rem;
+    right: 3rem;
+    & .menu-burger-1 {
+      @include burger;
+    }
+    & .menu-burger-2 {
+      @include burger;
+    }
+    & .menu-burger-3 {
+      @include burger;
+    }
   }
   & ul {
+    visibility: hidden;
     position: absolute;
+    top: -4rem;
     right: 1rem;
     display: flex;
     flex-direction: column;
@@ -22,7 +42,6 @@
   }
   & li {
     font-size: 1.2rem;
-    line-height: 1.7;
   }
 }
 
